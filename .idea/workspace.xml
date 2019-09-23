@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9dc57e85-8f35-4b6a-9775-2806f58b82e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/src/main/java/gui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/gui/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/src/main/resources/gui.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/resources/gui.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/target/classes/gui.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/gui/target/classes/gui.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/target/classes/gui/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/target/classes/gui/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/src/main/java/logic/FeedLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/logic/src/main/java/logic/FeedLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/target/classes/logic/FeedLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/logic/target/classes/logic/FeedLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/src/main/java/AnimalFeed/ISellable.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/AnimalFeed/ISellable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/src/main/java/AnimalFeed/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/AnimalFeed/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/src/main/java/Observers/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/Observers/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/target/classes/AnimalFeed/ISellable.class" beforeDir="false" afterPath="$PROJECT_DIR$/models/target/classes/AnimalFeed/ISellable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/target/classes/AnimalFeed/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/models/target/classes/AnimalFeed/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/target/classes/Observers/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/models/target/classes/Observers/Observer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/src/main/java/FeedFile/ReadFeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage/src/main/java/FeedFile/ReadFeed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/src/main/java/FeedStorage/FeedStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage/src/main/java/FeedStorage/FeedStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/classes/FeedFile/ReadFeed.class" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/classes/FeedFile/ReadFeed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/classes/FeedStorage/FeedStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/classes/FeedStorage/FeedStorage.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="CSS File" />
+        <option value="package.json" />
+        <option value="module-info" />
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Qgj9I0COeJ0ACQV1dqvpvLAU11" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="models" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="storage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\fun3\AnimalShelter\storage\src\main\java\storage" />
+      <recent name="D:\fun3\AnimalShelter\models\src\main\java\models" />
+      <recent name="D:\fun3\AnimalShelter\gui\src\main\java\gui" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.AnimalGui">
+    <configuration name="AnimalGui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.AnimalGui" />
+      <module name="gui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in models (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="models" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in models" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="models" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AnimalGui" />
+        <item itemvalue="JUnit.All in models (1)" />
+        <item itemvalue="JUnit.All in models" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dc57e85-8f35-4b6a-9775-2806f58b82e4" name="Default Changelist" comment="" />
+      <created>1568198980541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568198980541</updated>
+      <workItem from="1568198984823" duration="7536000" />
+      <workItem from="1568286011411" duration="4432000" />
+      <workItem from="1568360914353" duration="10287000" />
+      <workItem from="1568455895788" duration="3477000" />
+      <workItem from="1568535653495" duration="4552000" />
+      <workItem from="1568569644858" duration="7941000" />
+      <workItem from="1568717741764" duration="5944000" />
+      <workItem from="1568788823610" duration="8201000" />
+      <workItem from="1568800318979" duration="3049000" />
+      <workItem from="1568807126032" duration="5285000" />
+      <workItem from="1568887106803" duration="7607000" />
+      <workItem from="1569055952543" duration="7884000" />
+      <workItem from="1569147256806" duration="4427000" />
+      <workItem from="1569225405719" duration="155000" />
+      <workItem from="1569229406488" duration="45000" />
+      <workItem from="1569260284758" duration="3584000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

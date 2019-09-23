@@ -1,0 +1,7 @@
+module-info.class
+models\Cat.class
+models\Gender.class
+models\Reservor.class
+models\TypeAnimal.class
+models\Animal.class
+models\Dog.class

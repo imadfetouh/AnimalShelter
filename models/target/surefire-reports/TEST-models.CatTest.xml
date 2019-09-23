@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="models.CatTest" time="0.221" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\fun3\gitAnimalShelter\animalshelter\models\target\test-classes;C:\Users\imade\.m2\repository\org\openjfx\javafx-controls\12.0.2\javafx-controls-12.0.2.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-controls\12.0.2\javafx-controls-12.0.2-win.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-graphics\12.0.2\javafx-graphics-12.0.2.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-graphics\12.0.2\javafx-graphics-12.0.2-win.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-base\12.0.2\javafx-base-12.0.2.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-base\12.0.2\javafx-base-12.0.2-win.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-fxml\12.0.2\javafx-fxml-12.0.2.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-fxml\12.0.2\javafx-fxml-12.0.2-win.jar;C:\Users\imade\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\imade\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\imade\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\imade\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\imade\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\imade\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Amsterdam"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="NL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\imade\AppData\Local\Temp\surefire9943199287918556038 2019-09-19T14-22-24_950-jvmRun1 surefire1117501690024187262tmp surefire_06729498389404829807tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\fun3\gitAnimalShelter\animalshelter\models\target\test-classes;C:\Users\imade\.m2\repository\org\openjfx\javafx-controls\12.0.2\javafx-controls-12.0.2.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-controls\12.0.2\javafx-controls-12.0.2-win.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-graphics\12.0.2\javafx-graphics-12.0.2.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-graphics\12.0.2\javafx-graphics-12.0.2-win.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-base\12.0.2\javafx-base-12.0.2.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-base\12.0.2\javafx-base-12.0.2-win.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-fxml\12.0.2\javafx-fxml-12.0.2.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-fxml\12.0.2\javafx-fxml-12.0.2-win.jar;C:\Users\imade\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\imade\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\imade\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\imade\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\imade\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\imade\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\imade"/>
+    <property name="user.language" value="nl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="D:\fun3\gitAnimalShelter\animalshelter\models\target\classes"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-12.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\fun3\gitAnimalShelter\animalshelter\models"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\imade\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M3\surefire-booter-3.0.0-M3.jar;C:\Users\imade\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M3\surefire-api-3.0.0-M3.jar;C:\Users\imade\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M3\surefire-logger-api-3.0.0-M3.jar;D:\fun3\gitAnimalShelter\animalshelter\models\target\test-classes;C:\Users\imade\.m2\repository\org\openjfx\javafx-controls\12.0.2\javafx-controls-12.0.2.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-controls\12.0.2\javafx-controls-12.0.2-win.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-graphics\12.0.2\javafx-graphics-12.0.2.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-graphics\12.0.2\javafx-graphics-12.0.2-win.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-base\12.0.2\javafx-base-12.0.2.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-base\12.0.2\javafx-base-12.0.2-win.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-fxml\12.0.2\javafx-fxml-12.0.2.jar;C:\Users\imade\.m2\repository\org\openjfx\javafx-fxml\12.0.2\javafx-fxml-12.0.2-win.jar;C:\Users\imade\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\imade\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\imade\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\imade\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;C:\Users\imade\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.2\junit-jupiter-engine-5.4.2.jar;C:\Users\imade\.m2\repository\org\junit\platform\junit-platform-engine\1.4.2\junit-platform-engine-1.4.2.jar;C:\Users\imade\.m2\repository\org\apache\maven\surefire\surefire-junit-platform\3.0.0-M3\surefire-junit-platform-3.0.0-M3.jar;C:\Users\imade\.m2\repository\org\apache\maven\surefire\common-java5\3.0.0-M3\common-java5-3.0.0-M3.jar;C:\Users\imade\.m2\repository\org\junit\platform\junit-platform-launcher\1.3.1\junit-platform-launcher-1.3.1.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="12.0.2+10"/>
+    <property name="user.name" value="imade"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\imade\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\imade\AppData\Local\Temp\"/>
+    <property name="java.version" value="12.0.2"/>
+    <property name="user.dir" value="D:\fun3\gitAnimalShelter\animalshelter\models"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\imade\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\imade\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet;C:\Program Files\Git\cmd;D:\apache-maven-3.6.2\bin;C:\Program Files\Java\jdk-12.0.2\bin;C:\Users\imade\AppData\Local\Microsoft\WindowsApps;C:\Users\imade\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.2+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="testConstructor" classname="models.CatTest" time="0.215"/>
+</testsuite>

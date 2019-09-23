@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="logicInterface" />
+        <module name="models" />
+        <module name="Factory" />
+        <module name="AnimalFactory" />
+        <module name="storage" />
+        <module name="logic" />
+        <module name="gui" />
+        <module name="storageInterface" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="12" />
+  </component>
+</project>
