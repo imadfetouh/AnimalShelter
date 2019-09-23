@@ -52,7 +52,6 @@ public class Product implements ISellable, Serializable {
     public void notifyObservers() {
         for(IObserver observer : observers){
             observer.update();
-
         }
         observers.clear();
     }

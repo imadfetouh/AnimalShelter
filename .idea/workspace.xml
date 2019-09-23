@@ -3,22 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9dc57e85-8f35-4b6a-9775-2806f58b82e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/gui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/gui/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/resources/gui.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/resources/gui.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/target/classes/gui.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/gui/target/classes/gui.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/target/classes/gui/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/target/classes/gui/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/src/main/java/logic/FeedLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/logic/src/main/java/logic/FeedLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/target/classes/logic/FeedLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/logic/target/classes/logic/FeedLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/java/AnimalFeed/ISellable.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/AnimalFeed/ISellable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnimalShelter.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/models/src/main/java/AnimalFeed/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/AnimalFeed/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/java/Observers/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/Observers/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/target/classes/AnimalFeed/ISellable.class" beforeDir="false" afterPath="$PROJECT_DIR$/models/target/classes/AnimalFeed/ISellable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/target/classes/AnimalFeed/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/models/target/classes/AnimalFeed/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/target/classes/Observers/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/models/target/classes/Observers/Observer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/src/main/java/FeedFile/ReadFeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage/src/main/java/FeedFile/ReadFeed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/src/main/java/FeedStorage/FeedStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage/src/main/java/FeedStorage/FeedStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/target/classes/FeedFile/ReadFeed.class" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/classes/FeedFile/ReadFeed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/target/classes/FeedStorage/FeedStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/classes/FeedStorage/FeedStorage.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,6 +136,8 @@
       <workItem from="1569225405719" duration="155000" />
       <workItem from="1569229406488" duration="45000" />
       <workItem from="1569260284758" duration="3584000" />
+      <workItem from="1569265242673" duration="142000" />
+      <workItem from="1569265410581" duration="19000" />
     </task>
     <servers />
   </component>
