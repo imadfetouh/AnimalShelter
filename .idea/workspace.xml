@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9dc57e85-8f35-4b6a-9775-2806f58b82e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnimalShelter.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/java/AnimalFeed/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/AnimalFeed/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/target/classes/AnimalFeed/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/models/target/classes/AnimalFeed/Product.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +36,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/zeeslag/seabattle-start-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
@@ -137,7 +136,8 @@
       <workItem from="1569229406488" duration="45000" />
       <workItem from="1569260284758" duration="3584000" />
       <workItem from="1569265242673" duration="142000" />
-      <workItem from="1569265410581" duration="19000" />
+      <workItem from="1569265410581" duration="173000" />
+      <workItem from="1569308690481" duration="16000" />
     </task>
     <servers />
   </component>
