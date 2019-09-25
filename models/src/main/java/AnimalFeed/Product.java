@@ -23,16 +23,6 @@ public class Product implements ISellable, Serializable {
     }
 
     @Override
-    public String getName() {
-        return this.name;
-    }
-
-    @Override
-    public Double getPrice() {
-        return this.price;
-    }
-
-    @Override
     public int getStock() {
         return this.stock;
     }

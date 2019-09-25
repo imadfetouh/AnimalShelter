@@ -75,7 +75,7 @@ public class Controller {
 
         cbxAnimalType.getSelectionModel().select(TypeAnimal.Cat);
         cbxAnimalFilter.getSelectionModel().select("All");
-        //getAnimals();
+        getAnimals();
         getAnimalFeed();
     }
 
@@ -115,17 +115,17 @@ public class Controller {
     }
 
     public void addReservor(ActionEvent actionEvent) {
-        if(lvAnimals.getSelectionModel().getSelectedItems().size() == 0){
-            Alert alert = new Alert(Alert.AlertType.WARNING, "Please select an animal first");
+        if(lvAnimals.getSelectionModel().getSelectedItems().size() == 0 || tfReservorName.getText().equals("")){
+            Alert alert = new Alert(Alert.AlertType.WARNING, "Please select an animal and a name");
             alert.show();
         }
         else{
            Animal animal = lvAnimals.getSelectionModel().getSelectedItem();
 
-           String id = animal.getSerialVersionUID();
+           //String id = animal.getSerialVersionUID();
            Reservor reservor = new Reservor(tfReservorName.getText(), LocalDate.now());
-
-           logic.addReservor(reservor, id);
+           animal.setReservedBy(reservor);
+           logic.addReservor(animal);
            getAnimals();
         }
     }

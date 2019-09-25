@@ -5,8 +5,6 @@ import Observers.Observer;
 
 public interface ISellable {
 
-    String getName();
-    Double getPrice();
     int getStock();
     void addStock(int stock);
     void sell();

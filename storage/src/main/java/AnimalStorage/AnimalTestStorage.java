@@ -1,32 +1,39 @@
 package AnimalStorage;
-import AnimalFile.ReadAnimals;
-import AnimalFile.SetReservor;
-import AnimalFile.WriteAnimals;
-import AnimalModels.*;
+
+import AnimalModels.Animal;
+import AnimalModels.Cat;
+import AnimalModels.Dog;
+import AnimalModels.Gender;
 import storageInterface.IAnimalStorage;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class AnimalStorage implements IAnimalStorage {
+public class AnimalTestStorage implements IAnimalStorage {
 
     private List<Animal> animals;
 
-    public AnimalStorage() {
+    public AnimalTestStorage(){
         animals = new ArrayList<>();
+        Cat cat = new Cat("Imad", Gender.Male, "Krassen");
+        animals.add(cat);
+        Cat cat1 = new Cat("Peter", Gender.Female, null);
+        animals.add(cat1);
+        Dog dog = new Dog("Karel", Gender.Male);
+        animals.add(dog);
+        Dog dog1 = new Dog("Rinus", Gender.Female);
+        animals.add(dog1);
     }
 
     @Override
-    public List<Animal> getAnimals(){
-        animals = ReadAnimals.getAnimals();
+    public List<Animal> getAnimals() {
         return Collections.unmodifiableList(animals);
     }
 
     @Override
-    public void addAnimal(Animal animal){
+    public void addAnimal(Animal animal) {
         animals.add(animal);
-        WriteAnimals.writeAnimals(animals);
     }
 
     @Override
@@ -37,6 +44,5 @@ public class AnimalStorage implements IAnimalStorage {
                 break;
             }
         }
-        WriteAnimals.writeAnimals(animals);
     }
 }

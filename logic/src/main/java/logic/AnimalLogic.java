@@ -1,7 +1,6 @@
 package logic;
 
 import Filter.AnimalFilter;
-import Validate.ValidateAnimal;
 import logicInterface.ILogic;
 import AnimalModels.*;
 import storageInterface.IAnimalStorage;
@@ -28,12 +27,7 @@ public class AnimalLogic implements ILogic {
     }
 
     @Override
-    public void addReservor(Reservor reservor, String id) {
-        animalStorage.addReservor(reservor, id);
-    }
-
-    @Override
-    public boolean validate(Animal animal) {
-        return ValidateAnimal.validateNewAnimal(animal);
+    public void addReservor(Animal animal) {
+        animalStorage.updateAnimal(animal);
     }
 }

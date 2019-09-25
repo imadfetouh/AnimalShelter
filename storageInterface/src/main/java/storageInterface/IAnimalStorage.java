@@ -8,5 +8,5 @@ import java.util.List;
 public interface IAnimalStorage {
     List<Animal> getAnimals();
     void addAnimal(Animal animal);
-    void addReservor(Reservor reservor, String id);
+    void updateAnimal(Animal animal);
 }
