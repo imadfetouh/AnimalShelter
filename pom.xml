@@ -16,8 +16,7 @@
     <module>storageInterface</module>
     <module>logicInterface</module>
     <module>Factory</module>
-      <module>AnimalFactory</module>
-    <module>ResponseGenerator</module>
+    <module>AnimalFactory</module>
   </modules>
 
   <name>AnimalShelter</name>

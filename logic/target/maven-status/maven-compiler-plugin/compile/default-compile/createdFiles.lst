@@ -1,2 +1,8 @@
-logic\AnimalLogic.class
 module-info.class
+validate\validateReservor.class
+Filter\AnimalFilter.class
+logic\AnimalLogic.class
+validate\validateAnimalFeed.class
+logic\FeedLogic.class
+validate\validateObserver.class
+validate\validateAnimal.class

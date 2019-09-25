@@ -1,5 +1,10 @@
-D:\fun3\gitAnimalShelter\animalshelter\storage\src\main\java\module-info.java
-D:\fun3\gitAnimalShelter\animalshelter\storage\src\main\java\AnimalFile\ReadAnimals.java
-D:\fun3\gitAnimalShelter\animalshelter\storage\src\main\java\AnimalFile\WriteAnimals.java
-D:\fun3\gitAnimalShelter\animalshelter\storage\src\main\java\AnimalFile\SetReservor.java
-D:\fun3\gitAnimalShelter\animalshelter\storage\src\main\java\AnimalStorage\AnimalStorage.java
+D:\fun3\AnimalShelter\AnimalShelter\storage\src\main\java\AnimalFile\WriteAnimals.java
+D:\fun3\AnimalShelter\AnimalShelter\storage\src\main\java\FeedFile\ReadFeed.java
+D:\fun3\AnimalShelter\AnimalShelter\storage\src\main\java\AnimalFile\SetReservor.java
+D:\fun3\AnimalShelter\AnimalShelter\storage\src\main\java\AnimalStorage\AnimalStorage.java
+D:\fun3\AnimalShelter\AnimalShelter\storage\src\main\java\FeedFile\WriteFeed.java
+D:\fun3\AnimalShelter\AnimalShelter\storage\src\main\java\FeedStorage\FeedTestStorage.java
+D:\fun3\AnimalShelter\AnimalShelter\storage\src\main\java\module-info.java
+D:\fun3\AnimalShelter\AnimalShelter\storage\src\main\java\AnimalFile\ReadAnimals.java
+D:\fun3\AnimalShelter\AnimalShelter\storage\src\main\java\AnimalStorage\AnimalTestStorage.java
+D:\fun3\AnimalShelter\AnimalShelter\storage\src\main\java\FeedStorage\FeedStorage.java

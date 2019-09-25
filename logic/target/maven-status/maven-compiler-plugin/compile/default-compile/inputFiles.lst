@@ -1,4 +1,8 @@
-D:\fun3\gitAnimalShelter\animalshelter\logic\src\main\java\logic\AnimalLogic.java
-D:\fun3\gitAnimalShelter\animalshelter\logic\src\main\java\Validate\ValidateAnimal.java
-D:\fun3\gitAnimalShelter\animalshelter\logic\src\main\java\module-info.java
-D:\fun3\gitAnimalShelter\animalshelter\logic\src\main\java\Filter\AnimalFilter.java
+D:\fun3\AnimalShelter\AnimalShelter\logic\src\main\java\logic\FeedLogic.java
+D:\fun3\AnimalShelter\AnimalShelter\logic\src\main\java\validate\validateAnimal.java
+D:\fun3\AnimalShelter\AnimalShelter\logic\src\main\java\validate\validateAnimalFeed.java
+D:\fun3\AnimalShelter\AnimalShelter\logic\src\main\java\validate\validateReservor.java
+D:\fun3\AnimalShelter\AnimalShelter\logic\src\main\java\Filter\AnimalFilter.java
+D:\fun3\AnimalShelter\AnimalShelter\logic\src\main\java\logic\AnimalLogic.java
+D:\fun3\AnimalShelter\AnimalShelter\logic\src\main\java\module-info.java
+D:\fun3\AnimalShelter\AnimalShelter\logic\src\main\java\validate\validateObserver.java

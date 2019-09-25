@@ -1,0 +1,7 @@
+Filter\AnimalFilterTest.class
+validate\validateAnimaleFeedTest.class
+validate\validateReservorTest.class
+logic\FeedLogicTest.class
+validate\validateAnimalTest.class
+validate\validateObserverTest.class
+logic\AnimalLogicTest.class

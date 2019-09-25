@@ -1,2 +1,3 @@
 module-info.class
+logicInterface\IFeedLogic.class
 logicInterface\ILogic.class

@@ -1,2 +1,10 @@
+FeedFile\ReadFeed.class
 AnimalStorage\AnimalStorage.class
+AnimalFile\SetReservor.class
 module-info.class
+AnimalFile\WriteAnimals.class
+AnimalFile\ReadAnimals.class
+AnimalStorage\AnimalTestStorage.class
+FeedStorage\FeedStorage.class
+FeedStorage\FeedTestStorage.class
+FeedFile\WriteFeed.class

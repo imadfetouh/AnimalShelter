@@ -1,7 +1,11 @@
+AnimalModels\Animal.class
+AnimalFeed\ISellable.class
 module-info.class
-models\Cat.class
-models\Gender.class
-models\Reservor.class
-models\TypeAnimal.class
-models\Animal.class
-models\Dog.class
+Observers\IObserver.class
+AnimalModels\TypeAnimal.class
+AnimalModels\Reservor.class
+AnimalModels\Dog.class
+Observers\Observer.class
+AnimalFeed\Product.class
+AnimalModels\Cat.class
+AnimalModels\Gender.class
