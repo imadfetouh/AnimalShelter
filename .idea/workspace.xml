@@ -35,7 +35,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/SocketTestApp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -80,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AnimalGui">
+  <component name="RunManager" selected="JUnit.All in storage">
     <configuration name="AnimalGui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gui.AnimalGui" />
       <module name="gui" />
@@ -90,6 +90,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in AnimalShelter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AnimalShelter" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in storage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="storage" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,36 +120,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="Filter" />
       <option name="MAIN_CLASS_NAME" value="Filter.AnimalFilterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="validateAnimalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="logic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="validate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="validate" />
-      <option name="MAIN_CLASS_NAME" value="validate.validateAnimalTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="validateObserverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="logic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="validate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="validate" />
-      <option name="MAIN_CLASS_NAME" value="validate.validateObserverTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in storage" />
+        <item itemvalue="JUnit.All in AnimalShelter" />
         <item itemvalue="Application.AnimalGui" />
         <item itemvalue="JUnit.AnimalFilterTest" />
         <item itemvalue="JUnit.validateReservorTest" />
-        <item itemvalue="JUnit.validateObserverTest" />
-        <item itemvalue="JUnit.validateAnimalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +180,7 @@
       <workItem from="1569265410581" duration="173000" />
       <workItem from="1569308690481" duration="16000" />
       <workItem from="1569393893060" duration="8343000" />
-      <workItem from="1569402818629" duration="7798000" />
+      <workItem from="1569402818629" duration="9900000" />
     </task>
     <servers />
   </component>
