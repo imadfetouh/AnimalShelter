@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dc57e85-8f35-4b6a-9775-2806f58b82e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/target/classes/Validate/ValidateAnimal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/target/classes/logic/AnimalLogic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicInterface/target/classes/logicInterface/ILogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/logicInterface/target/classes/logicInterface/ILogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/logic/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +157,7 @@
       <workItem from="1569265242673" duration="142000" />
       <workItem from="1569265410581" duration="173000" />
       <workItem from="1569308690481" duration="16000" />
-      <workItem from="1569393893060" duration="5747000" />
+      <workItem from="1569393893060" duration="5830000" />
     </task>
     <servers />
   </component>

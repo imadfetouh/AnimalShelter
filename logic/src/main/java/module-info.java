@@ -4,4 +4,6 @@ module logic {
     requires storageInterface;
 
     exports logic;
+
+    opens logic;
 }
