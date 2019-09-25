@@ -3,26 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9dc57e85-8f35-4b6a-9775-2806f58b82e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/src/main/java/gui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/gui/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/target/classes/gui/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/gui/target/classes/gui/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/src/main/java/Validate/ValidateAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/gui/src/main/java/Validate/ValidateAnimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/src/main/java/logic/AnimalLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/logic/src/main/java/logic/AnimalLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic/target/classes/logic/AnimalLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/logic/target/classes/logic/AnimalLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicInterface/src/main/java/logicInterface/ILogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/logicInterface/src/main/java/logicInterface/ILogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/target/classes/Validate/ValidateAnimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/target/classes/logic/AnimalLogic.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logicInterface/target/classes/logicInterface/ILogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/logicInterface/target/classes/logicInterface/ILogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/java/AnimalFeed/ISellable.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/AnimalFeed/ISellable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/java/AnimalFeed/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/AnimalFeed/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/java/Observers/IObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/Observers/IObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/src/main/java/Observers/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/src/main/java/Observers/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/target/classes/AnimalFeed/ISellable.class" beforeDir="false" afterPath="$PROJECT_DIR$/models/target/classes/AnimalFeed/ISellable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/target/classes/AnimalFeed/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/models/target/classes/AnimalFeed/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/target/classes/Observers/IObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/models/target/classes/Observers/IObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/target/classes/Observers/Observer.class" beforeDir="false" afterPath="$PROJECT_DIR$/models/target/classes/Observers/Observer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/src/main/java/AnimalStorage/AnimalStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage/src/main/java/AnimalStorage/AnimalStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/target/classes/AnimalStorage/AnimalStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/storage/target/classes/AnimalStorage/AnimalStorage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInterface/src/main/java/storageInterface/IAnimalStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInterface/src/main/java/storageInterface/IAnimalStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageInterface/target/classes/storageInterface/IAnimalStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInterface/target/classes/storageInterface/IAnimalStorage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/storage/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +41,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -92,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in storage">
+  <component name="RunManager" selected="JUnit.All in logic">
     <configuration name="AnimalGui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gui.AnimalGui" />
       <module name="gui" />
@@ -106,15 +90,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in models (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="models" />
+    <configuration name="All in AnimalShelter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AnimalShelter" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in models" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in logic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="logic" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in models (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="models" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -132,10 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in logic" />
+        <item itemvalue="JUnit.All in AnimalShelter" />
         <item itemvalue="JUnit.All in storage" />
         <item itemvalue="Application.AnimalGui" />
         <item itemvalue="JUnit.All in models (1)" />
-        <item itemvalue="JUnit.All in models" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +161,7 @@
       <workItem from="1569265242673" duration="142000" />
       <workItem from="1569265410581" duration="173000" />
       <workItem from="1569308690481" duration="16000" />
-      <workItem from="1569393893060" duration="5521000" />
+      <workItem from="1569393893060" duration="5747000" />
     </task>
     <servers />
   </component>
