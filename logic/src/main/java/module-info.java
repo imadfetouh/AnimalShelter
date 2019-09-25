@@ -6,4 +6,6 @@ module logic {
     exports logic;
 
     opens logic;
+    opens validate;
+    opens Filter;
 }
