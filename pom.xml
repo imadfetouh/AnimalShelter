@@ -17,6 +17,7 @@
     <module>logicInterface</module>
     <module>Factory</module>
       <module>AnimalFactory</module>
+    <module>ResponseGenerator</module>
   </modules>
 
   <name>AnimalShelter</name>

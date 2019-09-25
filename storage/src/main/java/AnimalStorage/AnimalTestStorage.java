@@ -28,7 +28,7 @@ public class AnimalTestStorage implements IAnimalStorage {
 
     @Override
     public List<Animal> getAnimals() {
-        return Collections.unmodifiableList(animals);
+        return animals;
     }
 
     @Override

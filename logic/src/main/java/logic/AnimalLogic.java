@@ -4,6 +4,8 @@ import Filter.AnimalFilter;
 import logicInterface.ILogic;
 import AnimalModels.*;
 import storageInterface.IAnimalStorage;
+import validate.validateAnimal;
+import validate.validateReservor;
 
 import java.util.List;
 
@@ -29,5 +31,15 @@ public class AnimalLogic implements ILogic {
     @Override
     public void addReservor(Animal animal) {
         animalStorage.updateAnimal(animal);
+    }
+
+    @Override
+    public boolean validateNewAnimal(Animal animal) {
+        return validateAnimal.validateNewAnimal(animal);
+    }
+
+    @Override
+    public boolean validateNewReservor(Reservor reservor){
+        return validateReservor.validateNewReservor(reservor);
     }
 }

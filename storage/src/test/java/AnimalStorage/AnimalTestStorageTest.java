@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class AnimalTestStorageTest {
 
     @Test
-    void testConstructor(){
+    void testGetAnimalsListCount(){
         AnimalTestStorage animalTestStorage = new AnimalTestStorage();
 
         assertEquals(4, animalTestStorage.getAnimals().size());
@@ -42,5 +42,4 @@ class AnimalTestStorageTest {
         assertEquals("Imad", animalTestStorage.getAnimals().get(0).getReservedBy().getName());
         assertEquals(LocalDate.now(), animalTestStorage.getAnimals().get(0).getReservedBy().getDate());
     }
-
 }

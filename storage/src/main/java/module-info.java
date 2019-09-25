@@ -6,4 +6,5 @@ module storage {
     exports FeedStorage;
 
     opens AnimalStorage;
+    opens FeedStorage;
 }

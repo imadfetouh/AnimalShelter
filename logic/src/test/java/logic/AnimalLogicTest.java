@@ -48,7 +48,7 @@ class AnimalLogicTest {
 
         animalLogic.addAnimal(cat);
 
-        assertEquals(5, animalLogic.getAnimals("All"));
+        assertEquals(5, animalLogic.getAnimals("All").size());
     }
 
     @Test
@@ -57,7 +57,7 @@ class AnimalLogicTest {
 
         animalLogic.getAnimals("All").get(0).setReservedBy(new Reservor("Imad", LocalDate.now()));
 
-        assertEquals(4, animalLogic.getAnimals("All"));
+        assertEquals(4, animalLogic.getAnimals("All").size());
         assertEquals("Imad", animalLogic.getAnimals("All").get(0).getReservedBy().getName());
         assertEquals(LocalDate.now(), animalLogic.getAnimals("All").get(0).getReservedBy().getDate());
     }

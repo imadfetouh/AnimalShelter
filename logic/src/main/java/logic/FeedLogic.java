@@ -5,6 +5,9 @@ import Observers.IObserver;
 import Observers.Observer;
 import logicInterface.IFeedLogic;
 import storageInterface.IAnimalFeed;
+import validate.validateAnimalFeed;
+import validate.validateObserver;
+import validate.validateReservor;
 
 import java.util.List;
 
@@ -32,8 +35,12 @@ public class FeedLogic implements IFeedLogic {
     }
 
     @Override
-    public void addObserver(ISellable iSellable, IObserver observer) {
-        iSellable.addObserver(observer);
-        animalFeed.updateProduct(iSellable);
+    public boolean validateNewFeed(ISellable iSellable) {
+        return validateAnimalFeed.validate(iSellable);
+    }
+
+    @Override
+    public boolean validateNewObserver(Observer observer){
+        return validateObserver.validateNewObserver(observer);
     }
 }

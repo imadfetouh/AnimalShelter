@@ -104,29 +104,34 @@ public class Controller {
 
         Animal animal = AnimalFactory.createAnimal(typeAnimal, name, gender, badHabits);
 
-        if(logic.validate(animal)){
+        if(logic.validateNewAnimal(animal)){
             logic.addAnimal(animal);
             getAnimals();
         }
         else{
-            Alert alert = new Alert(Alert.AlertType.WARNING, "Please fill at least a name and a gender");
+            Alert alert = new Alert(Alert.AlertType.WARNING, "Please fill all fields in");
             alert.show();
         }
     }
 
     public void addReservor(ActionEvent actionEvent) {
-        if(lvAnimals.getSelectionModel().getSelectedItems().size() == 0 || tfReservorName.getText().equals("")){
-            Alert alert = new Alert(Alert.AlertType.WARNING, "Please select an animal and a name");
+        if(lvAnimals.getSelectionModel().getSelectedItems().size() == 0){
+            Alert alert = new Alert(Alert.AlertType.WARNING, "Please select an animal");
             alert.show();
         }
         else{
            Animal animal = lvAnimals.getSelectionModel().getSelectedItem();
-
-           //String id = animal.getSerialVersionUID();
            Reservor reservor = new Reservor(tfReservorName.getText(), LocalDate.now());
-           animal.setReservedBy(reservor);
-           logic.addReservor(animal);
-           getAnimals();
+
+           if(logic.validateNewReservor(reservor)){
+               animal.setReservedBy(reservor);
+               logic.addReservor(animal);
+               getAnimals();
+           }
+           else{
+               Alert alert = new Alert(Alert.AlertType.WARNING, "Please fill a name in");
+               alert.show();
+           }
         }
     }
 
@@ -136,25 +141,30 @@ public class Controller {
             alert.show();
         }
         else{
-            if(tfObserverEmail.getText().equals("")){
-                Alert alert = new Alert(Alert.AlertType.WARNING, "Please choose an email");
-                alert.show();
+            Observer observer = new Observer(tfObserverEmail.getText());
+            if(feedLogic.validateNewObserver(observer)){
+                ISellable iSellable = (ISellable) lvAnimalFeed.getSelectionModel().getSelectedItem();
+                iSellable.addObserver(observer);
+                feedLogic.updateProduct(iSellable);
+                getAnimalFeed();
             }
             else{
-                ISellable iSellable = (ISellable) lvAnimalFeed.getSelectionModel().getSelectedItem();
-                IObserver observer = new Observer(tfObserverEmail.getText());
-                feedLogic.addObserver(iSellable, observer);
-                getAnimalFeed();
+                Alert alert = new Alert(Alert.AlertType.WARNING, "Please choose an email");
+                alert.show();
             }
         }
     }
 
     public void newAnimalFeed(ActionEvent actionEvent) {
-
         Product product = new Product(tfAnimalFeed.getText(), Double.parseDouble(tfPrice.getText().toString()), Integer.parseInt(tfNewFeedStock.getText()));
-        feedLogic.addProduct(product);
-        getAnimalFeed();
-
+        if(feedLogic.validateNewFeed(product)){
+            feedLogic.addProduct(product);
+            getAnimalFeed();
+        }
+        else {
+            Alert alert = new Alert(Alert.AlertType.WARNING, "Please fill all fiels in");
+            alert.show();
+        }
     }
 
     public void sell(ActionEvent actionEvent) {

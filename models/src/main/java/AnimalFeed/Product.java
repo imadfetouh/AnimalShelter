@@ -12,9 +12,9 @@ public class Product implements ISellable, Serializable {
     private List<IObserver> observers;
     private String name;
     private Double price;
-    private int stock;
+    private Integer stock;
 
-    public Product(String name, Double price, int stock){
+    public Product(String name, Double price, Integer stock){
         this.observers = new ArrayList<>();
         this.name = name;
         this.price = price;
@@ -23,7 +23,17 @@ public class Product implements ISellable, Serializable {
     }
 
     @Override
-    public int getStock() {
+    public String getName() {
+        return this.name;
+    }
+
+    @Override
+    public Double getPrice() {
+        return this.price;
+    }
+
+    @Override
+    public Integer getStock() {
         return this.stock;
     }
 
@@ -49,6 +59,11 @@ public class Product implements ISellable, Serializable {
     @Override
     public void addObserver(IObserver ob) {
         observers.add(ob);
+    }
+
+    @Override
+    public int getObserversCount() {
+        return this.observers.size();
     }
 
     @Override

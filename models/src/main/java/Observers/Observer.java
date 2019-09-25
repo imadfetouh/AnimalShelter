@@ -11,6 +11,11 @@ public class Observer implements IObserver, Serializable {
     }
 
     @Override
+    public String getEmail() {
+        return this.email;
+    }
+
+    @Override
     public void update() {
         //send email
     }

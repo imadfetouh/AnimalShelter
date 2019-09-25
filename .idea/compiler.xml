@@ -16,6 +16,8 @@
         <module name="storageInterface" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="12" />
+    <bytecodeTargetLevel target="12">
+      <module name="ResponseGenerator" target="12" />
+    </bytecodeTargetLevel>
   </component>
 </project>
