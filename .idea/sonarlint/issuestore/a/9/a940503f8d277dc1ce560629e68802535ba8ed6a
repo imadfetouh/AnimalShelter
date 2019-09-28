@@ -1,0 +1,14 @@
+
+Osquid:S1172ª"2Remove this unused method parameter "actionEvent".(õø…Íıÿÿÿÿ
+[squid:S1155‹">Use isEmpty() to check whether the collection is empty or not.(à¢¹ùÿÿÿÿ
+[squid:S1155¿">Use isEmpty() to check whether the collection is empty or not.(à¢¹ùÿÿÿÿ
+`squid:S3358e"DExtract this nested ternary operation into an independent statement.(ğØŞÏùÿÿÿÿ
+Jsquid:S1172"2Remove this unused method parameter "actionEvent".(´«…‡
+Isquid:S1172Š"2Remove this unused method parameter "actionEvent".(£ k
+[squid:S1155«">Use isEmpty() to check whether the collection is empty or not.(à¢¹ùÿÿÿÿ
+Jsquid:S1172¾"2Remove this unused method parameter "actionEvent".(“ÅÍ¶
+Nsquid:S1172u"2Remove this unused method parameter "actionEvent".(À®ô«şÿÿÿÿ
+€squid:S1192Œ"cDefine a constant instead of duplicating this literal "Please select an animal feed first" 3 times.(¾éŸÿÿÿÿÿ
+^squid:S1858Ÿ"A"getText" returns a string, there's no need to call "toString()".(§ì˜¥úÿÿÿÿ
+Usquid:S1155v">Use isEmpty() to check whether the collection is empty or not.(ò£±
+\squid:UselessImportCheck	"3Remove this unused import 'javafx.scene.text.Text'.(˜ÿ‡Üşÿÿÿÿ

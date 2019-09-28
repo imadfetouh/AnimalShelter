@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dc57e85-8f35-4b6a-9775-2806f58b82e4" name="Default Changelist" comment="" />
+    <list default="true" id="9dc57e85-8f35-4b6a-9775-2806f58b82e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +103,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in logic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="logic" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in storage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="storage" />
       <option name="PACKAGE_NAME" value="" />
@@ -124,28 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="validateReservorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="logic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="validate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="validate" />
-      <option name="MAIN_CLASS_NAME" value="validate.validateReservorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in storage" />
+        <item itemvalue="JUnit.All in logic" />
         <item itemvalue="JUnit.All in AnimalShelter" />
         <item itemvalue="Application.AnimalGui" />
         <item itemvalue="JUnit.AnimalFilterTest" />
-        <item itemvalue="JUnit.validateReservorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +174,8 @@
       <workItem from="1569265410581" duration="173000" />
       <workItem from="1569308690481" duration="16000" />
       <workItem from="1569393893060" duration="8343000" />
-      <workItem from="1569402818629" duration="10685000" />
+      <workItem from="1569402818629" duration="11052000" />
+      <workItem from="1569675848408" duration="1350000" />
     </task>
     <servers />
   </component>
