@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: validate.validateAnimaleFeedTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in validate.validateAnimaleFeedTest
+testValidateAnimalFeedEmptyPrice  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make validate.validateAnimaleFeedTest() accessible: module logic does not "opens validate" to unnamed module @63070bab
+
+testValidateAnimalFeedEmptyStock  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make validate.validateAnimaleFeedTest() accessible: module logic does not "opens validate" to unnamed module @63070bab
+
+testValidateAnimalFeedNullName  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make validate.validateAnimaleFeedTest() accessible: module logic does not "opens validate" to unnamed module @63070bab
+
+testValidateAnimalFeedCorrect  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make validate.validateAnimaleFeedTest() accessible: module logic does not "opens validate" to unnamed module @63070bab
+
+testValidateAnimalFeedEmptyName  Time elapsed: 0 s  <<< ERROR!
+java.lang.reflect.InaccessibleObjectException: Unable to make validate.validateAnimaleFeedTest() accessible: module logic does not "opens validate" to unnamed module @63070bab
+
