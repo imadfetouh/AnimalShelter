@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dc57e85-8f35-4b6a-9775-2806f58b82e4" name="Default Changelist" comment="" />
+    <list default="true" id="9dc57e85-8f35-4b6a-9775-2806f58b82e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic/target/test-classes/META-INF/jpms.args" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/target/test-classes/META-INF/models.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/target/test-classes/META-INF/jpms.args" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +22,10 @@
         <option value="CSS File" />
         <option value="package.json" />
         <option value="module-info" />
-        <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
+        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,11 +49,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="gui" />
       <recent name="AnimalFeed" />
       <recent name="validate" />
       <recent name="Filter" />
       <recent name="logic" />
-      <recent name="FeedStorage" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="storage" />
@@ -174,7 +179,7 @@
       <workItem from="1569308690481" duration="16000" />
       <workItem from="1569393893060" duration="8343000" />
       <workItem from="1569402818629" duration="11052000" />
-      <workItem from="1569675848408" duration="2035000" />
+      <workItem from="1569675848408" duration="5686000" />
     </task>
     <servers />
   </component>
@@ -197,11 +202,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/storage/src/main/java/AnimalFile/ReadAnimals.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/storage/src/main/java/AnimalStorage/AnimalStorage.java</url>
           <line>21</line>
